@@ -1,17 +1,15 @@
-import { useState } from 'react'
-import Footer from '../src/components/Footer'
-import Header from '../src/components/Header'
-
+import React from 'react';
+import Home from './components/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
   return (
-    <div>
-      <Header/>  
-      <h1>Hola mundo</h1>
+    <div className="App">
+      <Home />
       <Footer/>
-    
     </div>
-  )
+  );
 }
-export default App
+
+export default App;
