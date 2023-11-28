@@ -9,19 +9,19 @@
     {
       "imagen": "/src/assets/viscoelastica.jpg",
       "id": 2,
-      "nombre": "Almohada Viscoelastica",
+      "nombre": "Almohada Viscoelástica",
       "precio": 10000
     },
     {
       "imagen": "/src/assets/bebe.jpg",
       "id": 3,
-      "nombre": "Almohada Bebe",
+      "nombre": "Almohada Bebé",
       "precio": 5000
     },
     {
       "imagen": "/src/assets/vellon.jpg",
       "id": 4,
-      "nombre": "Almohada Vellon",
+      "nombre": "Almohada Vellón",
       "precio": 6500
     },
     {

@@ -5,6 +5,7 @@ const Home = () => {
 
   return (
     <>
+     <div id='DIV-CONTAIN'>Conocé nuestros Productos</div>
    <CardList/>
     </>
   )

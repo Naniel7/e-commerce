@@ -286,3 +286,11 @@ border-radius: 25px;
   padding-left: 12px;
  
 }
+
+.hero-container{
+  height: 30vh; 
+  width: 100%;
+  background-image: url('../src//assets/Hero.png');
+  background-size: cover; 
+  background-position: center
+}

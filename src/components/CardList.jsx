@@ -22,7 +22,7 @@ const CardList = () => {
     return (
     <>
     <section id="excursiones"> 
-     <div id='DIV-CONTAIN'>Conocé nuestros Productos</div>
+    
       <div id='CARDLIST_CONT'>
        
        {products.map((item) => (

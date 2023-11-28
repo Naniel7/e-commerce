@@ -1,13 +1,16 @@
-import React from 'react';
-import { Container } from 'react-bootstrap';
-import CardList from './CardList';
+import React from "react";
+import { Container } from "react-bootstrap";
+import CardList from "./CardList";
+import Hero from "./Hero";
 
 const IndexHome = () => {
   return (
-    <Container className="mt-4">
-      <h1 className="mb-4">Página de inicio</h1>
-      <CardList />
-    </Container>
+    <>
+      <Hero/>
+      <Container className="mt-4">
+        <CardList />
+      </Container>
+    </>
   );
 };
 
