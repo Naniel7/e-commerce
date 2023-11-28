@@ -120,3 +120,169 @@
   background-color: #e0e0e0;
   border-radius: 5px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#DIV-CONTAIN {
+  color: black;
+  background-color: white;
+  font-size: xx-large;
+  font-weight: 700;
+  text-align: center;
+}
+#CARDLIST_CONT {
+  width: 100vw;
+  height: 100%;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  gap: 20px;
+  background-color: white;
+  justify-content: center;
+}
+
+#FIGURE {
+  width: 100%;
+  height: 100%;
+  gap: 1px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  color: beige;
+  border: solid 1px grey;
+  border-radius: 10px;
+  box-shadow: 3px 3px #c5c3c3;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+}
+#H3 {
+  height: 24px;
+  margin-bottom: 16px;
+  font-size: x-large;
+  font-weight: 600;
+  padding: 8px;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+}
+
+#div-figure {
+  height: auto;
+  padding: 1px;
+  margin: 2px;
+}
+#DIV_IMG {
+  display: block;
+  width: 100%;
+  height: 300px;
+  padding: 3px;
+}
+figcaption {
+  height: auto;
+}
+#PARRAFO {
+  font-size: x-large;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 1px;  
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 4px;
+  letter-spacing: 1px;
+  color: black;
+}
+#CONTADOR {
+  width: 100%;
+  height: 60px;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+}
+#BOTON {
+  color:white;
+  width: 180px;  
+  background-color: rgb(59, 133, 245);
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+}
+#MODAL-CONT{
+  position: fixed;
+  z-index: 50;
+  overflow-y: auto;
+  opacity: 1;
+  top:70px ;
+  bottom: 0;
+  right: 0;
+  left: 150px;
+}
+#MODAL{
+  overflow-x: hidden;
+  width: 90%;
+  height: 600px;
+  border: solid 10px grey;
+  border-radius: 20px;
+  background-color: white;
+
+  
+}
+#MODAL-CONTENIDO{
+display: flex;
+flex-direction: column;
+width: auto;
+height: 150px;
+margin-bottom: 40px;
+font-size: large;
+color: black;
+} 
+#BTN{
+float: right ;
+height: 32px;
+padding: 0;
+margin: 0;
+background-color: white;
+fill:black;
+border: none;
+}
+#MODAL_TITULO{
+  width: auto;
+  height: 40px;
+  padding-bottom: 2px;
+  padding-left: 25px;
+  padding-top: 8px;
+  text-transform: capitalize;
+  text-align: start;
+  font-weight: bold;
+  font-size: large;
+}
+#IMG_MODAL{
+  margin: 20px;
+  height: 140px;
+  width: 150px; 
+border: solid 1px grey;
+border-radius: 25px;
+
+}
+#items_carro{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  gap:24px;
+  padding-left: 12px;
+ 
+}

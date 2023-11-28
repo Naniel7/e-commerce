@@ -3,15 +3,16 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css"
+import IndexHome from './components/IndexHome';
+
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+    <IndexHome/>
         <Footer />
       </div>
     </Router>
