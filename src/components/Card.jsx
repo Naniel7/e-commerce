@@ -11,11 +11,11 @@ const Card = ({ item, addToCart, cart, deleteFromCart }) => {
   const AbreModal = () => {
     setVisible(true), addToCart(id);
   };
+
   return (
     <figure key={id} id="FIGURE">
       <div id="div-figure">
         <h3 id="H3">{nombre}</h3>
-
         <img src={imagen} alt={nombre} id="DIV_IMG"></img>
       </div>
       <figcaption>
@@ -23,7 +23,7 @@ const Card = ({ item, addToCart, cart, deleteFromCart }) => {
           <p id="PARRAFO">${precio}</p>
         </div>
         <div id="CONTADOR">
-          <button id="BOTON" onClick={AbreModal}>
+          <button id="BOTON" style={{ zIndex: 10 }} onClick={AbreModal}>
             Comprar ahora
           </button>
         </div>

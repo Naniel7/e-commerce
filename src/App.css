@@ -326,3 +326,7 @@ flex-wrap: wrap;
 justify-content: center;
 align-content: center;
 }
+
+#BOTON{
+  z-index: 300;
+}

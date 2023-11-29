@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import IndexHome from './components/IndexHome';
-import CardList from './components/CardList';
 import ItemDetail from './Pages/ItemDetail';
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<IndexHome />} />
-          <Route path="/products" element={<CardList />} />
+
           <Route path="/product/:id" element={<ItemDetail />} />
         </Routes>
         <Footer />
