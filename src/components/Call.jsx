@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Hero() {
+export default function Call() {
   return (
     <>
-      <div className="hero-container">
+      <div className="call-container">
       </div>
     </>
   );

@@ -135,13 +135,13 @@
   text-align: center;
 }
 #CARDLIST_CONT {
-  width: 100vw;
+  width: 70vw;
   height: 100%;
   padding-top: 48px;
   padding-bottom: 48px;
   overflow-y: hidden;
-  display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   background-color: white;
   justify-content: center;
@@ -288,9 +288,41 @@ border-radius: 25px;
 }
 
 .hero-container{
+  margin: 3vh;
   height: 30vh; 
   width: 100%;
   background-image: url('../src//assets/Hero.png');
-  background-size: cover; 
+  background-size:contain;
+  background-repeat: no-repeat; 
   background-position: center
+}
+
+.call-container{
+height: 10vh; 
+width: 100%;
+background-image: url('../src//assets/Call.png');
+background-size:contain;
+background-repeat: no-repeat; 
+background-position: center
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+#cardlist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+#items-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
 }
