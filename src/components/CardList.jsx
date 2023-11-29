@@ -46,7 +46,6 @@ const CardList = () => {
         <div id='CARDLIST_CONT'>
           {products.map((item) => (
             <div key={item.id}>
-              {/* Elimina el Link y agrega className y data-id a la imagen */}
               <Card
                 item={item}
                 addToCart={addToCart}

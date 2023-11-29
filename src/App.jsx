@@ -16,7 +16,6 @@ function App() {
         <Routes>
           <Route path="/" element={<IndexHome />} />
           <Route path="/products" element={<CardList />} />
-          {/* Cambia la ruta a /product/:id */}
           <Route path="/product/:id" element={<ItemDetail />} />
         </Routes>
         <Footer />
