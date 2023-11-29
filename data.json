@@ -4,49 +4,57 @@
       "imagen": "/src/assets/triangular.jpg",
       "id": 1,
       "nombre": "Almohada Triangular",
-      "precio": 7500
+      "precio": 7500,
+      "description": "Producto de gran calidad y muy confortable con tela premium."
     },
     {
       "imagen": "/src/assets/viscoelastica.jpg",
       "id": 2,
       "nombre": "Almohada Viscoelástica",
-      "precio": 10000
+      "precio": 10000,
+      "description": "Producto de gran calidad y muy confortable con tela premium."
     },
     {
       "imagen": "/src/assets/bebe.jpg",
       "id": 3,
       "nombre": "Almohada Bebé",
-      "precio": 5000
+      "precio": 5000,
+      "description": "Producto de gran calidad y muy confortable con tela premium."
     },
     {
       "imagen": "/src/assets/vellon.jpg",
       "id": 4,
       "nombre": "Almohada Vellón",
-      "precio": 6500
+      "precio": 6500,
+      "description": "Producto de gran calidad y muy confortable con tela premium."
     },
     {
       "imagen": "/src/assets/cervical.jpg",
       "id": 5,
       "nombre": "Almohada Cervical",
-      "precio": 9000
+      "precio": 9000,
+      "description": "Producto de gran calidad y muy confortable con tela premium."
     },
     {
       "imagen": "/src/assets/viajera.jpg",
       "id": 6,
       "nombre": "Almohada Viaje",
-      "precio": 5500
+      "precio": 5500,
+      "description": "Producto de gran calidad y muy confortable con tela premium."
     },
     {
       "imagen": "/src/assets/fundas.jpg",
       "id": 7,
       "nombre": "Funda Almohada",
-      "precio": 4800
+      "precio": 4800,
+      "description": "Producto de gran calidad y muy confortable con tela premium."
     },
     {
       "imagen": "/src/assets/almohadones.jpg",
       "id": 8,
       "nombre": "Almohadones",
-      "precio": 3500
+      "precio": 3500,
+      "description": "Producto de gran calidad y muy confortable con tela premium."
     }
   ]
 }
