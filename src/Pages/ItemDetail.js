@@ -7,7 +7,8 @@ const DetallesProducto = ({ match }) => {
     <div>
       <h2>Detalles del Producto</h2>
       <p>ID del Producto: {productId}</p>
-      {/* Renderiza los detalles del producto según tu lógica */}
+       <p>Nombre del Producto: {producto.nombre}</p>
+    <p>Precio del Producto: {producto.precio}</p>
     </div>
   );
 }
